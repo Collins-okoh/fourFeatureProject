@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.subhead {
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+}
+
+p#reliable {
+    font-weight: lighter;
+    font-size: 30px;
+    color: hsl(229, 6%, 66%);
+}
+
+.head {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    color: hsl(234, 12%, 34%);
+}
+
+span {
+    display: block;
+}
+
+div.supervisor {
+    box-sizing: border-box;        /*Helps to remove unnecessary distortions due to paddings and margins*/
+    width: 250px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border-top: 3px solid hsl(180, 62%, 55%);       /*Gives the top coloured border*/
+    position: fixed;         /*Helps to position the box where you want it to be positioned relative to the root html document*/
+    top: 320px;
+    left: 20%;
+    box-shadow: 2px 2px rgb(78, 77, 77);
+    padding: 10px 10px;
+    color: hsl(229, 6%, 66%);
+}
+
+div.teambuilder {
+    box-sizing: border-box;
+    width: 250px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    position: fixed;
+    top: 200px;
+    left: 41%;
+    box-shadow: 2px 2px rgb(78, 77, 77);
+    padding: 10px 10px;color: hsl(229, 6%, 66%);
+}
+
+div.calculator {
+    box-sizing: border-box;
+    width: 250px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    position: fixed;
+    top: 320px;
+    right: 20%;
+    box-shadow: 2px 2px rgb(78, 77, 77);
+    padding: 10px 10px;
+    color: hsl(229, 6%, 66%);
+}
+
+div.karma {
+    box-sizing: border-box;
+    width: 250px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    position: fixed;
+    top: 420px;
+    left: 41%;
+    box-shadow: 2px 2px rgb(78, 77, 77);
+    padding: 10px 10px;
+    color: hsl(229, 6%, 66%);
+}
+
+img {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 20%;
+}
+
+.supervisor, .karma, .calculator, .teambuilder {
+    font-weight: bold;
+    text-align: left;
+}
+
+.supervisortext, .calculatortext, .karmatext, .teambuildertext {
+    font-size: 11px;
+    margin-top: 10%;
+    font-weight: lighter;
+    color: #808080;
+}
+
+.classhead {
+    color: hsl(234, 12%, 34%);
+}
