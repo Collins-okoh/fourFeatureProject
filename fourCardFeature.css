@@ -110,3 +110,239 @@ img {
 .classhead {
     color: hsl(234, 12%, 34%);
 }
+
+/* Mobile Design */
+
+@media only screen and (max-width: 375px) {
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: hsl(0, 0%, 98%);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    p#reliable {
+        font-weight: lighter;
+        font-size: 15px;
+        color: hsl(229, 6%, 66%);
+        margin-top: 40px;
+    }
+
+    .head {
+        font-size: 15px;
+        font-weight: bold;
+        display: block;
+        color: hsl(234, 12%, 34%);
+    }
+
+    .subhead {
+        font-size: 11px;
+        color: hsl(229, 6%, 66%);
+        margin: 0 10%;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    div.supervisor {
+        box-sizing: border-box;
+        width: 70%;
+        height: 25%;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border-top: 3px solid hsl(212, 86%, 64%);
+        position: fixed;
+        top: 180px;
+        left: 15%;
+        box-shadow: 2px 2px rgb(78, 77, 77);
+        padding: 10px 10px;
+        color: hsl(229, 6%, 66%);
+    }
+    
+
+    div.teambuilder {
+        box-sizing: border-box;
+        width: 70%;
+        height: 25%;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border-top: 3px solid hsl(0, 78%, 62%);
+        position: fixed;
+        top: 390px;
+        left: 15%;
+        box-shadow: 2px 2px rgb(78, 77, 77);
+        padding: 10px 10px;
+        color: hsl(229, 6%, 66%);
+    }
+
+    div.karma {
+        box-sizing: border-box;
+        width: 70%;
+        height: 25%;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border-top: 3px solid hsl(34, 97%, 64%);
+        position: fixed;
+        top: 600px;
+        left: 15%;
+        box-shadow: 2px 2px rgb(78, 77, 77);
+        padding: 10px 10px;
+        color: hsl(229, 6%, 66%);
+    }
+
+    div.calculator {
+        box-sizing: border-box;
+        width: 70%;
+        height: 25%;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border-top: 3px solid hsl(212, 86%, 64%);
+        position: fixed;
+        top: 800px;
+        left: 15%;
+        box-shadow: 2px 2px rgb(78, 77, 77);
+        padding: 10px 10px;
+        color: hsl(229, 6%, 66%);
+    }
+    
+    .supervisortext, .calculatortext, .karmatext, .teambuildertext {
+        font-size: 10px;
+        margin-top: 10%;
+        font-weight: lighter;
+        color: #808080;
+    }
+
+    .supervisor, .karma, .calculator, .teambuilder {
+        font-weight: bold;
+        text-align: left;
+        font-size: 13px;
+    }
+    
+    img {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        width: 17%;
+    }
+}
+
+/* Now, this is for tablet */
+
+@media only screen and (max-width: 742px) {
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: hsl(0, 0%, 98%);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    p#reliable {
+        font-weight: lighter;
+        font-size: 25px;
+        color: hsl(229, 6%, 66%);
+        margin-top: 40px;
+    }
+
+    .head {
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+        color: hsl(234, 12%, 34%);
+    }
+
+    .subhead {
+        font-size: 16px;
+        color: hsl(229, 6%, 66%);
+        margin: 0 10%;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    div.supervisor {
+        box-sizing: border-box;
+        width: 60%;
+        height: 30%;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border-top: 3px solid hsl(212, 86%, 64%);
+        position: fixed;
+        top: 180px;
+        left: 20%;
+        box-shadow: 2px 2px rgb(78, 77, 77);
+        padding: 10px 10px;
+        color: hsl(229, 6%, 66%);
+    }
+    
+
+    div.teambuilder {
+        box-sizing: border-box;
+        width: 60%;
+        height: 30%;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border-top: 3px solid hsl(0, 78%, 62%);
+        position: fixed;
+        top: 420px;
+        left: 20%;
+        box-shadow: 2px 2px rgb(78, 77, 77);
+        padding: 10px 10px;
+        color: hsl(229, 6%, 66%);
+    }
+
+    div.karma {
+        box-sizing: border-box;
+        width: 60%;
+        height: 30%;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border-top: 3px solid hsl(34, 97%, 64%);
+        position: fixed;
+        top: 660px;
+        left: 20%;
+        box-shadow: 2px 2px rgb(78, 77, 77);
+        padding: 10px 10px;
+        color: hsl(229, 6%, 66%);
+    }
+
+    div.calculator {
+        box-sizing: border-box;
+        width: 60%;
+        height: 30%;
+        background-color: #ffffff;
+        border-radius: 7px;
+        border-top: 3px solid hsl(212, 86%, 64%);
+        position: fixed;
+        top: 820px;
+        left: 20%;
+        box-shadow: 2px 2px rgb(78, 77, 77);
+        padding: 10px 10px;
+        color: hsl(229, 6%, 66%);
+    }
+    
+    .supervisortext, .calculatortext, .karmatext, .teambuildertext {
+        font-size: 13px;
+        margin-top: 7%;
+        font-weight: lighter;
+        color: #808080;
+    }
+
+    .supervisor, .karma, .calculator, .teambuilder {
+        font-weight: bold;
+        text-align: left;
+        font-size: 21px;
+    }
+    
+    img {
+        position: absolute;
+        bottom: 7%;
+        right: 7%;
+        width: 15%;
+    }
+}
